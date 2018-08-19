@@ -95,3 +95,6 @@ http.listen(process.env.PORT || 3000, function(){
 app.get("/.well-known/acme-challenge/:content", (req, res) => {
     res.send(process.env.CERTBOT_RESPONSE);
 });
+app.get("/token", (req, res) => {
+    res.send(process.env.TELEGRAM_TOKEN)
+});

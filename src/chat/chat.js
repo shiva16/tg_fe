@@ -41,8 +41,8 @@ export default class Chat extends Component {
                        ref={(input) => { this.input = input }}
                        onKeyPress={this.handleKeyPress}/>
 
-                <a class="banner" href="brainarchitecture.org" target="_blank">
-                    Powered for <b>MBAassist</b>&nbsp;
+                <a class="banner" href="http://brainarchitecture.org" target="_blank">
+                    Tailored for <b>MBAassist demo</b>&nbsp;
                 </a>
             </div>
         );
