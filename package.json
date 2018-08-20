@@ -15,7 +15,7 @@
     "lint": "eslint src"
   },
   "authors": [
-    "Ido Cohen (http://github.com/idoco)"
+    "Shivaramakrishnan (http://github.com/shiva16/tg_fe)"
   ],
   "devDependencies": {
     "webpack-bundle-analyzer": "^2.2.1",
